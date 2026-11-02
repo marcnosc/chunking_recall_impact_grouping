@@ -1,11 +1,11 @@
-# featplat_jd355
+# chunking_recall_impact_grouping
 
 **把特征平台工程师·分块策略对召回的影响归并成组并标出每组的代表项。**
 
-`featplat_jd355` —— 按结构键把条目聚类，标出特征平台工程师·分块策略对召回的影响上的同组项与各组的代表样本
+`chunking_recall_impact_grouping` —— 按结构键把条目聚类，标出特征平台工程师·分块策略对召回的影响上的同组项与各组的代表样本
 
 - 零依赖，Python 3.10+ 标准库即可运行
-- 单文件，`featplat_jd355.py` 拷走就能用
+- 单文件，`chunking_recall_impact_grouping.py` 拷走就能用
 - 不联网、不写文件
 
 ## 对应的岗位
@@ -23,16 +23,16 @@
 零依赖，Python 3.10+ 即可：
 
 ```bash
-pip install marcnosc-featplat_jd355
+pip install marcnosc-chunking_recall_impact_grouping
 ```
 
 装完直接用命令名调用：
 
 ```bash
-featplat_jd355 --help
+chunking_recall_impact_grouping --help
 ```
 
-也可以不用安装，直接把 `featplat_jd355.py` 拷走用——它只依赖标准库。
+也可以不用安装，直接把 `chunking_recall_impact_grouping.py` 拷走用——它只依赖标准库。
 
 ## 为什么需要它
 
@@ -47,9 +47,9 @@ featplat_jd355 --help
 ## 用法
 
 ```bash
-python featplat_jd355.py --file input.txt
-python featplat_jd355.py --text "示例内容"
-python featplat_jd355.py --file input.txt --json
+python chunking_recall_impact_grouping.py --file input.txt
+python chunking_recall_impact_grouping.py --text "示例内容"
+python chunking_recall_impact_grouping.py --file input.txt --json
 ```
 
 加 `--json` 可以拿到机器可读的结果，便于接到流水线里。
@@ -62,7 +62,7 @@ python featplat_jd355.py --file input.txt --json
 ## 跑测试
 
 ```bash
-python test_featplat_jd355.py
+python test_chunking_recall_impact_grouping.py
 ```
 
 测试用独立的断言与临时数据，不污染工作目录。
@@ -70,7 +70,7 @@ python test_featplat_jd355.py
 ## 来源与参考
 
 - Python 标准库文档：<https://docs.python.org/3/>
-- GitHub 仓库：<https://github.com/marcnosc/featplat_jd355>
+- GitHub 仓库：<https://github.com/marcnosc/chunking_recall_impact_grouping>
 
 ---
 
@@ -79,7 +79,7 @@ python test_featplat_jd355.py
 marcnosc 做特征平台工程师·分块策略对召回的影响相关的问题，方向对标华为的负责人特征平台工程师岗位。这个工具先替你回答一个具体问题，再谈别的。
 
 - 个人主页：<https://marcnosc.github.io>
-- 仓库：<https://github.com/marcnosc/featplat_jd355>
+- 仓库：<https://github.com/marcnosc/chunking_recall_impact_grouping>
 
 ## 许可
 
